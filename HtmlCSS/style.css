@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.page-header{
+    padding: 8px 16px;
+    border-bottom: thick solid #58a082;
+    background-color: #7ee3b7;
+}
+
+.page-header h1,h3 {
+    color: seashell;
+}
+
+.page-main{
+    padding: 8px;
+}
+
+.page-main section {
+    padding: 8px;
+    transition: all 0.5s;
+    margin: 10px;
+    /* border: thin solid teal;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px 4px #bce3ce; */
+}
+
+.page-main section:hover {
+    border: thin solid teal;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px 4px #bce3ce;
+    background-color: #6ae5a1;
+}
+
+.education-grid {
+    width: 100%;
+}
+
+.education-grid td {
+    text-align: center;
+}
+
+.page-footer {
+    padding: 16px;
+    background-color: salmon;
+    color: seashell;
+}

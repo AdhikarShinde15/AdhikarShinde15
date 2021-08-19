@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: seashell;
+}
+
+#box{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    background: #ff3861;
+}
+
+.todo-list{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.logo {
+ 
+  padding: 20px;
+
+}
+.logo p{
+    color: seashell;
+}
+.todo-list {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   justify-content:space-between;
+}
+ /* .btn-flex {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}   */
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3{
+   font-size: 30px;
+   color: seashell;
+}
+
+.todo-list li{
+    padding: 8px;
+   margin-top:10px;
+  /*margin-bottom: 10px; */ 
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  list-style: none;
+  background: #fb8a94  ;
+}
+
+button{
+    background: #ff3861;
+}
+
+.getInput{
+    margin: 120px;
+    padding: 20px; 
+}
+
+.getInput p{
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.getInput input{
+    
+    padding: 15px;
+    background: whitesmoke;
+    color: black;
+}
+.getInput button{
+    padding: 15px 32px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.s:visited{
+    text-decoration: line-through;
+    text-decoration-thickness: 4px;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(231, 9, 9);
+}

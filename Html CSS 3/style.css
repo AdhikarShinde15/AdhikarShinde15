@@ -1,0 +1,25 @@
+div{
+    display: inline-block;
+    height: 100%;
+    width:25%;
+} 
+ .red{
+    background-color: red;
+}
+
+
+.yellow{
+    
+    background-color: yellow;
+}
+.blue{
+    
+    background-color: blue;
+}
+.green{
+  
+    background-color: green;
+}
+
+
+

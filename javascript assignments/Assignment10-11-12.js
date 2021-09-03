@@ -1,4 +1,4 @@
-Assignment 10
+//Assignment 10
 const ob1 = {
      name:"Adhikar",
     age:22
@@ -13,7 +13,7 @@ const ob1 = {
  console.log(checkName(ob1))
  console.log(checkName(ob2))
 
-Assignment 11
+//Assignment 11
  const ronaldo = {
       goals  : 2,
       assists : 2,
@@ -30,7 +30,7 @@ Assignment 11
  console.log(calculateScore(ronaldo))
  console.log(calculateScore(messi))
 
-Assignment 12
+//Assignment 12
 const calculateMultiples = (base,limit) => {
     let arr = []
      for(let i=1 ;  ; i++)

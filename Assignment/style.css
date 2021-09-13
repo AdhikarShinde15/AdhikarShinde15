@@ -1,0 +1,16 @@
+.red{
+    background:red;
+    
+    padding: 141px;
+    margin-top: 260px;
+    position: relative;
+    margin-left: 367px;
+    margin-right: 600px;
+}
+.black{
+    background: black;
+    padding: 52px;
+    position: absolute;
+    top: -55px;
+    left: 178px;
+}

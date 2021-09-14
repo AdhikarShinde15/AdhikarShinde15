@@ -1,0 +1,38 @@
+
+.btn{
+    background: #59a0d5;
+    margin-top: 20px;
+    width: -webkit-fill-available;
+    font-size: xxx-large;
+    height: 60px;
+    color: antiquewhite;
+}
+
+.container:active ::after {
+    height: 100px;
+    width: 100px;
+    background: #e09913;
+}
+
+.container {
+    text-align: center;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    margin-left: 720px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 44px solid #f00;
+  }
+
+ ul{
+     list-style-type: none;
+ } 
+li{
+    font-size: 20px;
+    border: thin solid rgb(156, 152, 152);
+}
+ .list {
+     border: thin solid black;
+ }

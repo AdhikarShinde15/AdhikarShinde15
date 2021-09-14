@@ -1,0 +1,21 @@
+body {
+    margin: 0%;
+}
+
+.box {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background: orange;
+    border: thin solid black;
+}
+
+
+ .arrow {
+    width: 0;
+    height: 0;
+    margin-left: 101px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 60px solid green;
+}

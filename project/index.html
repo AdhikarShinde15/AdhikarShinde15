@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System</title>  
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/saveDelete.js" defer></script>
+    <script src="./scripts/constants.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
+</head>
+<body>
+    <main>
+
+        <section class="form-container">
+            <form class="form">
+                <input class="input" type="text" name="name" id="name" placeholder="name" />
+                <input class="input" type="number" name="age" id="age" placeholder="age" />
+                <select class="input" name="department" id="department">
+                    <option value="IT">IT</option>
+                    <option value="HR">HR</option>
+                    <option value="L&D">Learning & Development</option>
+                </select>
+
+                <button class="btn" id="saveBtn">SAVE</button>
+            </form>
+        </section>
+
+        <section class="grid-container">
+            <table class="user-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Department</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>

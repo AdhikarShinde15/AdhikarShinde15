@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Records</title>
+</head>
+<body>
+    <main class="main">
+        <section class="get-data">
+            <form id="form">
+               <label for="name">Name <input id="name" type="text" name="name"></label>
+               <label for="role">Role <select name="role" id="role">
+                  <option>Select</option>
+                  <option value="HR">HR</option>
+                  <option value="Engineer">Engineer</option>
+               </select></label>
+               <label for="age">Age <input id="age" type="number"></label>
+               <label for="salary">Salary <input id="salary" type="number"></label>
+              <button id="submit">Submit</button>
+            </form>
+        </section>
+        <section class="display">
+            <div class="filters">
+               <label for="filter-name"><input type="text" name="filter-name" id="filter-name"> Name</label>
+               <label for="filter-name"><input type="text" name="filter-name" id="filter-name"> Name</label>
+            </div>
+            <div class="grid-container">
+                <table class="user-table">
+                    <thead>
+                        <tr>
+                            <th>Sr.NO</th>
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th>Age</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+                <button>Prev</button>
+                <button id="nxt">Next</button>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

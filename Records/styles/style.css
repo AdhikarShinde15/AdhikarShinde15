@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+}
+
+.get-data{
+    border: 2px solid plum;
+    height: 100vh;
+    width: 22rem;
+    padding: 2rem;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.filters {
+    padding: 1rem;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    padding: 16px;
+}
+
+.user-table {
+    width: 100%;
+}
+
+.user-table td {
+    text-align: center;
+}

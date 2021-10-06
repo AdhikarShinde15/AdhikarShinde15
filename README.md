@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @AdhikarShinde15
-- 👀 I’m interested in ...
+- 👋 Hi, I’m Adhikar Shinde
+- 👀 I’m interested in React and Flutter
 - 🌱 I’m currently learning MERN
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on React 
 - 📫 How to reach me on Email adhikar090@gmail.com
 
 <!---
